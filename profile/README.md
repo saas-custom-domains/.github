@@ -36,7 +36,7 @@ Your app reads `X-Served-For` to know which customer it's serving, and checks `X
 
 ## Example apps
 
-Each example is a small multi-tenant app built the same way: it finds the customer from the hostname, checks the proxy's auth token, adds and removes domains through our API, keeps domain status up to date with webhooks, and runs locally on `*.localhost`. Every one comes with a step-by-step guide.
+Each example is a small multi-tenant app built the same way: it finds the customer from the hostname, checks the proxy's auth token, adds and removes domains through our API, keeps domain status up to date with webhooks, and runs locally on `*.localhost` against [scd-mock](https://github.com/saas-custom-domains/scd-mock), a local copy of our API and proxy, so you can try it without an account. Every one comes with a step-by-step guide.
 
 | Framework | Language | Example app | Guide |
 | --- | --- | --- | --- |
