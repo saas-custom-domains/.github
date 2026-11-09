@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://saascustomdomains.com">Website</a> ·
   <a href="https://docs.saascustomdomains.com">API docs</a> ·
+  <a href="https://saascustomdomains.com/agent-setup">Agent setup</a> ·
   <a href="https://help.saascustomdomains.com">Help center</a> ·
   <a href="https://saascustomdomains.com/blog">Guides</a>
 </p>
@@ -55,6 +56,17 @@ Each example is a small multi-tenant app built the same way: it finds the custom
 | Spring Boot | Java | [custom-domains-spring-boot](https://github.com/saas-custom-domains/custom-domains-spring-boot) | [Read the guide](https://saascustomdomains.com/blog/posts/custom-domains-spring-boot) |
 
 Using something else? The [custom domains guide](https://saascustomdomains.com/blog/posts/the-ultimate-guide-to-custom-domains-for-your-saas-app) covers the parts that are the same in every stack.
+
+## For your terminal and AI agents
+
+| | What it's for | |
+| --- | --- | --- |
+| [CLI](https://github.com/saas-custom-domains/cli) | Add domains, check DNS and see traffic from your terminal, scripts and CI. `--json` output for agents | `npx @saas-custom-domains/cli` |
+| [Agent plugin](https://github.com/saas-custom-domains/skills) | The skill and the MCP server in one install for Claude Code, Codex, Cursor and VS Code | `/plugin marketplace add saas-custom-domains/skills` |
+| [MCP server](https://docs.saascustomdomains.com/mcp) | Manage your customers' domains from Claude, ChatGPT, Cursor or any MCP client. Sign in, nothing to install | `https://mcp.saascustomdomains.com/mcp` |
+| [scd-mock](https://github.com/saas-custom-domains/scd-mock) | A local copy of our API and proxy for development and CI, no account needed | `ghcr.io/saas-custom-domains/scd-mock` |
+
+Setup for each coding agent: [saascustomdomains.com/agent-setup](https://saascustomdomains.com/agent-setup).
 
 ## Get started
 
